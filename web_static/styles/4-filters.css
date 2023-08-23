@@ -1,7 +1,7 @@
 .container {
 	max-width: 1000px;
 	margin: 30px auto;
-	text-align: center;
+	box-sizing: border-box;
 }
 
 .filters {
@@ -10,6 +10,9 @@
 	width: 100%;
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 button {
@@ -20,7 +23,7 @@ button {
 	width: 20%;
 	border: 0;
 	border-radius: 4px;
-	position: absolute;
+	margin-right: 30px;
 }
 
 button:hover {
