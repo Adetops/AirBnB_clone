@@ -29,21 +29,45 @@ section button:hover {
 	display: flex;
 	flex-flow: column;
 	justify-content: center;
-	flex-wrap: wrap;
+	font-weight: 600;
+	text-align: center;
 }
 
 .locations {
 	border-right: 1px solid #DDDDDD;
 }
 
-.locations h3, .amenities h3 {
-	font-weight: 600;
-	justify-content: right;
-	margin-left: 30px;
-}
-
 .locations h4, .amenities h4 {
 	font-weight: 400;
 	font-size: 14px;
-	margin-left: 30px;
+	text-align: center;
+}
+
+section .popover li:hover {
+	background: #FAFAFA;
+}
+section .popover li ul {
+	list-style: none;
+	display: none;
+}
+
+.popover li {
+	list-style: none;
+}
+
+.popover li ul li {
+	margin: 15px;
+}
+
+section .popover h2 {
+	font-size: 16px;
+}
+
+section .popover li:hover ul {
+	display: block;
+	position: absolute;
+	width: 18%;
+	border: 1px solid #DDDDDD;
+	border-radius: 4px;
+	margin-top: 18px;
 }
