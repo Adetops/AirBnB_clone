@@ -43,9 +43,6 @@ section button:hover {
 	text-align: center;
 }
 
-section .popover li:hover {
-	background: #FAFAFA;
-}
 section .popover li ul {
 	list-style: none;
 	display: none;
@@ -64,6 +61,7 @@ section .popover h2 {
 }
 
 section .popover li:hover ul {
+	background: #FAFAFA;
 	display: block;
 	position: absolute;
 	width: 18%;
